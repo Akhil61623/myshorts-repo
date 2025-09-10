@@ -1,0 +1,14 @@
+{
+  "name": "myshorts-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed:10k": "node seed.js 10000",
+    "seed:100k": "node seed.js 100000"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

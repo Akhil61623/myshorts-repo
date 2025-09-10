@@ -1,0 +1,6 @@
+html,body,#root{height:100%;margin:0}
+.app{max-width:800px;margin:0 auto;padding:12px}
+.brand{font-weight:800;font-size:26px;color:#ff5a7a;margin-bottom:12px}
+.card{background:#0d0d0d;border:1px solid #1b1b1b;padding:8px;border-radius:10px}
+.thumb img{width:100%;border-radius:10px}
+.title{margin:8px 0 0;font-size:14px}

@@ -63,3 +63,6 @@ export default function ShortsFeed() {
     </div>
   );
 }
+// पहले था: fetch('http://localhost:3001/api/shorts' + q)
+// बदलो ये कर दो:
+const res = await fetch(`/api/shorts${q}`);
